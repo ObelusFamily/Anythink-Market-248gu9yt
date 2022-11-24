@@ -43,7 +43,7 @@ class Home extends React.Component {
       itemsPromise,
       Promise.all([agent.Tags.getAll(), itemsPromise(this.props.searchValue)])
     );
-    this.onSearchValueChange = this.onSearchValueChange.bind(this);
+
   }
 
   componentWillUnmount() {
